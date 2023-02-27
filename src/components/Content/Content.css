@@ -1,0 +1,49 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    float: right;
+}
+
+.product {
+    border: 1px solid black;
+    width: 30%;
+    margin: 10px;
+}
+
+.product-header {
+    background-color: blue;
+    color: white;
+}
+
+.product-header:first-child {
+    font-weight: bold;
+}
+
+.product-header p {
+    margin: 0;
+}
+
+.product img {
+    max-width: 90%;
+    height: auto;
+}
+
+.detalls {
+    background-color: red;
+    color: white;
+    padding: 5px 0;
+}
+
+.preu {
+    color: orange;
+    text-align: center;
+}
+
+.compra {
+    margin: 0 auto;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-left: 35%;
+}

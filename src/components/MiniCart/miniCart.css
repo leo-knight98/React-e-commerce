@@ -1,0 +1,12 @@
+.buttonCart {
+    width: 50px;
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.buttonCart img {
+    max-width: 90%;
+    height: auto;
+}
